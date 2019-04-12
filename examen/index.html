@@ -5,8 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
-<body>
-    <h2>sd</h2>
+<body background="imagenes/car.jpg">
+        <div id="">
+        <header id="cabeza">
+            <div><img src="imagenes/logoexa.png"></div>
+            <h1 id="titulo">Sistema de ventas</h1>
+            <hr id="">
+        
+        <ul id="menu" >
+            <li><a onclick="inicio()">Inicio</a></li>
+            <li><a onclick="ventas()">Ventas</a></li>
+            <li><a onclick="reporte()">Reporte</a></li>
+            <li><a onclick="cliente()">Cliente</a></li>
+            <li><a onclick="producto()">Producto</a></li> 
+        </ul>
+    </header>
+        <div id="contenedor">
+        <div id="Inicio" >
+            
+        </div>
+        <div id="Ventas" style=display:none>
+            comovamos
+        </div>
+        <div id="Reporte" style=display:none>
+            que pex
+        </div>
+        <div id="Cliente" style=display:none>
+            wsap
+        </div>
+        <div id="Producto" style=display:none>
+            <h1>Producto</h1>
+            <hr>
+            <table>
+                <thead>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Stock</th>
+                    <th>Accion</th>
+                </thead>
+                <tr>
+                    <td>P001</td>
+                    <td>Mouse</td>
+                    <td>25</td>
+                    <td>20</td>
+                    <td><i class="fas fa-shopping-cart"></i></td>
+                </tr>
+                <tr>
+                        <td>P002</td>
+                        <td>teclado</td>
+                        <td>50</td>
+                        <td>30</td>
+                        <td><i class="fas fa-shopping-cart"></i></td>
+                    </tr>
+                    <tr>
+                            <td>P003</td>
+                            <td>parlantes</td>
+                            <td>200</td>
+                            <td>20</td>
+                            <td><i class="fas fa-shopping-cart"></i></td>
+                        </tr>
+                        <tr>
+                                <td>P004</td>
+                                <td>Impresora</td>
+                                <td>700</td>
+                                <td>20</td>
+                                <td><i class="fas fa-shopping-cart"></i></td>
+                            </tr>
+            </table>
+        </div>
+    </div>
+    <script src="scrip.js"></script>
 </body>
 </html>
