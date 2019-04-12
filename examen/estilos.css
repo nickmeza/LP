@@ -2,7 +2,18 @@
     margin: 0;
     padding: 0;
 }
-@font-face;
+@font-face { 
+    font-family: "BadScript";
+    src: url(fonts/BadScript-Regular.ttf);
+    }
+    @font-face{
+    font-family: "GreatVibes";
+    src: url(fonts/GreatVibes-Regular.ttf);
+    }
+    @font-face{
+    font-family: "Oswald-Bold";
+    src: url(fonts/Oswald-Bold.ttf);
+    }
 div{
     height: 100px;
     width: 100px;
@@ -41,6 +52,8 @@ a{
     
 }
 #cabeza{
+    font-family: "GreatVibes";
+    color: aqua;
     background-color: white;
     width: 900px;
     height: 200px;
